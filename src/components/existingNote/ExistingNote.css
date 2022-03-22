@@ -1,0 +1,16 @@
+.existing-note-container {
+  margin-top: 20px;
+}
+
+.existing-note-container > button {
+  vertical-align  : top;
+  background-color: var(--color-red);
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .existing-note-container > button {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

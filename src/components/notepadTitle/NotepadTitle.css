@@ -1,0 +1,16 @@
+.save-button {
+  background-color: var(--color-blue);
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: var(--color-red);
+}
+
+.button-container {
+  float: right;
+}
+
+.notepad-input {
+  width: 300px;
+}

@@ -1,0 +1,19 @@
+.note-container {
+  display: inline-block;
+  width        : 50%;
+}
+
+.note-container > input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.note-container > textarea {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .note-container {
+    width: 100%;
+  }
+}

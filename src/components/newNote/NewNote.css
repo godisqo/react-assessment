@@ -1,0 +1,5 @@
+.new-note-container > button {
+  background-color: var(--color-green);
+  display         : block;
+  margin-top      : 5px;
+}
